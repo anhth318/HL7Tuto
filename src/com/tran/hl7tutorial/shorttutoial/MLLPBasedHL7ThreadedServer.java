@@ -35,7 +35,7 @@ package com.tran.hl7tutorial.shorttutoial;
 	     }
 	    
 	     public static void main(String[] args) {
-	        MLLPBasedHL7ThreadedServer server = new MLLPBasedHL7ThreadedServer(1080, 3);
+	        MLLPBasedHL7ThreadedServer server = new MLLPBasedHL7ThreadedServer(1090, 3);
 	        server.setUpConnectionHandlers();
 	        server.acceptConnections();
 	     }
@@ -73,6 +73,7 @@ package com.tran.hl7tutorial.shorttutoial;
 	            	OutputStream out = connection.getOutputStream();
 	
 	            	String parsedHL7Message = getMessage(in);
+	            	System.out.println("Message received:" + parsedHL7Message);
 	            	String buildAcknowledgmentMessage = getSimpleAcknowledgementMessage(parsedHL7Message);
 	            	out.write(buildAcknowledgmentMessage.getBytes(), 0, buildAcknowledgmentMessage.length());
 

@@ -14,13 +14,13 @@ public class HapiSendMultipleMessagesExample {
 	private static HapiContext context = new DefaultHapiContext();
 	
 	// change this to whatever your port number is
-	private static final int PORT_NUMBER = 54633;
+	private static final int PORT_NUMBER = 37073;
 
 	public static void main(String[] args) throws Exception {
 
 		try {
 
-			FileReader reader = new FileReader("/Users/haianhtran/Documents/FileWithLotsOfHl7Messages.txt");
+			FileReader reader = new FileReader("/Users/haianhtran/eclipse-workspace/HL7Tuto/TestHL7MessageFiles/FileWithLotsOfHl7Messages.txt");
 			
 			//create an iterator to read through the HL7 messages in the file
 			Hl7InputStreamMessageIterator messageIterator = new Hl7InputStreamMessageIterator(reader);
@@ -31,7 +31,7 @@ public class HapiSendMultipleMessagesExample {
 				
 				if (connectionWithServer == null) {
 					boolean useSecureTlsConnection = false;
-					connectionWithServer = context.newClient("localhost", PORT_NUMBER, useSecureTlsConnection);
+					connectionWithServer = context.newClient("192.168.2.122", PORT_NUMBER, useSecureTlsConnection);
 				}
 				
 				try {

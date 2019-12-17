@@ -2,40 +2,19 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/lib/hapi-examples-2.2.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/lib/hapi-hl7overhttp-2.2.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/lib/hapi-structures-v26-2.2.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/lib/hapi-structures-v251-2.2.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/lib/hapi-structures-v25-2.2.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/lib/hapi-structures-v24-2.2.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/lib/hapi-structures-v231-2.2.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/lib/hapi-structures-v23-2.2.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/lib/hapi-structures-v22-2.2.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/lib/hapi-structures-v21-2.2.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/lib/hapi-base-2.2.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/lib/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/lib/slf4j-api-1.6.6.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/lib/slf4j-log4j12-1.6.6.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v26-2.2-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v251-2.2-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v25-2.2-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v24-2.2-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v231-2.2-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v23-2.2-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v22-2.2-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v21-2.2-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-base-2.2-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v26-2.2-beta1-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v251-2.2-beta1-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v25-2.2-beta1-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v24-2.2-beta1-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v231-2.2-beta1-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v23-2.2-beta1-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v22-2.2-beta1-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v21-2.2-beta1-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-base-2.2-beta1-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v23-2.1-beta1-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v22-2.1-beta1-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/haianhtran/Dropbox/Mon hoc/Module 524 ESIPE/HL7/Tutorial/hl7-master/hapi-dist-2/src/hapi-structures-v21-2.1-beta1-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/slf4j-log4j12-1.6.6.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/slf4j-api-1.6.6.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/hapi-structures-v26-2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/hapi-structures-v251-2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/hapi-structures-v25-2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/hapi-structures-v24-2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/hapi-structures-v231-2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/hapi-structures-v23-2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/hapi-structures-v22-2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/hapi-structures-v21-2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/hapi-hl7overhttp-2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/hapi-examples-2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/hapi-base-2.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

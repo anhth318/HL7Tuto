@@ -11,7 +11,7 @@ import ca.uhn.hl7v2.parser.Parser;
 
 public class HapiSendMessageSimpleExample {
 
-	private static final int PORT_NUMBER = 54633;// change this to whatever your port number is
+	private static final int PORT_NUMBER = 37073;// change this to whatever your port number is
 
 	// In HAPI, almost all things revolve around a context object
 	private static HapiContext context = new DefaultHapiContext();
@@ -26,7 +26,7 @@ public class HapiSendMessageSimpleExample {
 			ADT_A01 adtMessage = (ADT_A01) AdtMessageFactory.createMessage("A01");
 
 			// create a new MLLP client over the specified port
-			Connection connection = context.newClient("localhost", PORT_NUMBER, false);
+			Connection connection = context.newClient("192.168.2.122", PORT_NUMBER, false);
 
 			// The initiator which will be used to transmit our message
 			Initiator initiator = connection.getInitiator();
