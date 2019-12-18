@@ -16,5 +16,10 @@
 	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/hapi-hl7overhttp-2.2.jar"/>
 	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/hapi-examples-2.2.jar"/>
 	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/hapi-dist-2.2-all/lib/hapi-base-2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/commons-codec-1.13/commons-codec-1.13-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/commons-codec-1.13/commons-codec-1.13-test-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/commons-codec-1.13/commons-codec-1.13-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/commons-codec-1.13/commons-codec-1.13-tests.jar"/>
+	<classpathentry kind="lib" path="/Users/haianhtran/eclipse-workspace/HL7Tuto/commons-codec-1.13/commons-codec-1.13.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
