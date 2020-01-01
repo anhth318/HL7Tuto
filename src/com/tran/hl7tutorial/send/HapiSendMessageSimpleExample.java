@@ -26,7 +26,7 @@ public class HapiSendMessageSimpleExample {
 			ADT_A01 adtMessage = (ADT_A01) AdtMessageFactory.createMessage("A01");
 
 			// create a new MLLP client over the specified port
-			Connection connection = context.newClient("192.168.2.122", PORT_NUMBER, false);
+			Connection connection = context.newClient("192.168.56.101", PORT_NUMBER, false);
 
 			// The initiator which will be used to transmit our message
 			Initiator initiator = connection.getInitiator();

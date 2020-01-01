@@ -12,7 +12,7 @@ public class SimpleMLLPBasedTCPClient {
     public static void main(String[] args) throws IOException {
 
         // Create a socket to connect to server running locally on port 1080
-        Socket socket = new Socket("localhost", 1090);
+        Socket socket = new Socket("192.168.56.101", 37073);
         System.out.println("Connected to Server");
 
         StringBuffer testHL7MessageToTransmit = new StringBuffer();

@@ -35,14 +35,6 @@ public class HapiTerserBasicOperations {
             dataRetrieved = terserHelper.getData(terserExpression);
             System.out.printf("Field 5 and Component 2 of the PID segment using expression '%s' was: '%s' \n\n", terserExpression, dataRetrieved);
 
-            terserExpression = "/.*ID-5-2";
-            dataRetrieved = terserHelper.getData(terserExpression);
-            System.out.printf("Field 5 and Component 2 of the PID segment using wildcard-based expression '%s' was: '%s' \n\n",terserExpression, dataRetrieved);
-
-            terserExpression = "/.P?D-5-2";
-            dataRetrieved = terserHelper.getData(terserExpression);
-            System.out.printf("Field 5 and Component 2 of the PID segment using another wildcard-based expression '%s' was: '%s' \n\n",terserExpression, dataRetrieved);
-
             terserExpression = "/.PV1-9(1)-1"; // note: field repetitions are zero-indexed
             dataRetrieved = terserHelper.getData(terserExpression);
             System.out.printf("2nd repetition of Field 9 and Component 1 for it in the PV1 segment using expression '%s' was: '%s' \n\n",terserExpression, dataRetrieved);

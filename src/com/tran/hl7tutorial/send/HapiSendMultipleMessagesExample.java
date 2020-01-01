@@ -31,7 +31,7 @@ public class HapiSendMultipleMessagesExample {
 				
 				if (connectionWithServer == null) {
 					boolean useSecureTlsConnection = false;
-					connectionWithServer = context.newClient("192.168.2.122", PORT_NUMBER, useSecureTlsConnection);
+					connectionWithServer = context.newClient("192.168.56.101", PORT_NUMBER, useSecureTlsConnection);
 				}
 				
 				try {

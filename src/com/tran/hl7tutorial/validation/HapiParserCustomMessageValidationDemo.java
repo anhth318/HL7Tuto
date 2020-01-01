@@ -4,7 +4,9 @@ import ca.uhn.hl7v2.DefaultHapiContext;
 import ca.uhn.hl7v2.HL7Exception;
 import ca.uhn.hl7v2.HapiContext;
 import ca.uhn.hl7v2.Version;
+import ca.uhn.hl7v2.model.Message;
 import ca.uhn.hl7v2.parser.PipeParser;
+import ca.uhn.hl7v2.util.Terser;
 import ca.uhn.hl7v2.validation.builder.support.DefaultValidationBuilder;
 
 public class HapiParserCustomMessageValidationDemo {
@@ -21,15 +23,17 @@ public class HapiParserCustomMessageValidationDemo {
 			"PID|1||135769||MOUSE^MICKEY^||19281118|M|||"
 			+ "123 Main St.^^Lake Buena Vista^FL^32830||"
 			+ "(407)939-1289|||||1719|99999999||||||||||||||||||||\r\n" + 
-			"PV1|1|O|||||7^Disney^Walt^^MD^^^^|";
+			"PV1|1|O|5||||7^Disney^Walt^^MD^^^^|";
 
 		//specify an override for our default validation behavior by injecting our own extension
 		context.setValidationRuleBuilder(new OurSpecialMessageValidationBuilderClass());
 
 		try {
-			PipeParser parser = context.getPipeParser();
-			parser.parse(adtMessage);
-			System.out.println("Code should not get here");
+			System.out.println("Code will get here if the PV1-3 field is not empty.");
+			PipeParser ourPipeParser = new PipeParser();
+			Message orderADTMessage = ourPipeParser.parse(adtMessage);
+			Terser terser = new Terser(orderADTMessage);			
+			System.out.println("The value of PV1-3 = " + terser.get("/.PV1-3"));
 		} catch (HL7Exception e) {
 			System.out.println("Validation failed as expected during parsing since PV1-3 is now mandatory");
 			System.out.println("Validation Message: " + e.getMessage());
