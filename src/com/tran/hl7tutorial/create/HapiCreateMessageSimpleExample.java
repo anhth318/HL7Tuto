@@ -29,7 +29,7 @@ public class HapiCreateMessageSimpleExample {
 			// create these parsers for file operations
 			Parser pipeParser = context.getPipeParser();
 			Parser xmlParser = context.getXMLParser();
-
+			
 			// print out the message that we constructed
 			System.out.println("Message was constructed successfully..." + "\n");
 			System.out.println(pipeParser.encode(adtMessage));

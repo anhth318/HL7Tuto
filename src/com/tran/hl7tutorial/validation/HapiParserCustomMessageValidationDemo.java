@@ -23,7 +23,7 @@ public class HapiParserCustomMessageValidationDemo {
 			"PID|1||135769||MOUSE^MICKEY^||19281118|M|||"
 			+ "123 Main St.^^Lake Buena Vista^FL^32830||"
 			+ "(407)939-1289|||||1719|99999999||||||||||||||||||||\r\n" + 
-			"PV1|1|O|5||||7^Disney^Walt^^MD^^^^|";
+			"PV1|1|O|||||7^Disney^Walt^^MD^^^^|";
 
 		//specify an override for our default validation behavior by injecting our own extension
 		context.setValidationRuleBuilder(new OurSpecialMessageValidationBuilderClass());

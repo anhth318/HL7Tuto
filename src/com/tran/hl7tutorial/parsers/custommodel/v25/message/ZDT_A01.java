@@ -5,7 +5,7 @@ import ca.uhn.hl7v2.model.v25.message.ADT_A01;
 import ca.uhn.hl7v2.parser.DefaultModelClassFactory;
 import ca.uhn.hl7v2.parser.ModelClassFactory;
 import java.util.Arrays;
-import com.tran.hl7tutorial.parsers.custommodel.v25.segment.ZPV;
+import com.tran.hl7tutorial.parsers.custommodel.v25.segment.*;
 
 public class ZDT_A01 extends ADT_A01 {
 	
@@ -30,14 +30,20 @@ public class ZDT_A01 extends ADT_A01 {
 		int indexOfZSegment = indexOfPid + 1; // ZPV segment appears immediately after the PID segment
 
 		Class<ZPV> type = ZPV.class;
+		Class<ZNK> type2 = ZNK.class;
 		boolean required = true;
 		boolean repeating = false;
 
 		this.add(type, required, repeating, indexOfZSegment); //add this segment to the message payload
+		this.add(type2, required, repeating, indexOfZSegment+1); //add this segment to the message payload
 	}
 
 	public ZPV getZPVSegment() throws HL7Exception {
 		return getTyped("ZPV", ZPV.class);
+	}
+	
+	public ZNK getZNKSegment() throws HL7Exception {
+		return getTyped("ZNK", ZNK.class);
 	}
 
 }
